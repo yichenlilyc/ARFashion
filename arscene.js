@@ -25,10 +25,10 @@ const scene_3 = new THREE.Scene();
 
 //AR scene
 const start = async () => {
-    navigator.mediaDevices.getUserMedia({
-        video: true,
-        audio: true
-    });
+    // navigator.mediaDevices.getUserMedia({
+    //     video: true,
+    //     audio: true
+    // });
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
         container: document.querySelector("#ar-container"),
         imageTargetSrc: './assets/markers/targetsFashion.mind',
